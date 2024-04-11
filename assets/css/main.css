@@ -28,15 +28,6 @@ section, summary, time, mark, audio, video {
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
-
-	.profile-pic {
-		width: 5px; /* Adjust the width as needed */
-		height: 500px; /* Adjust the height as needed */
-		border-radius: 80%; /* This makes the image round */
-		object-fit: cover; /* Ensures the image covers the space without stretching */
-		display:inline-block; /* Change to inline-block if you prefer it inline with text */
-		margin: 0; /* Centers the image. Remove if not needed */
-	}
 	
 
 
@@ -2644,9 +2635,10 @@ input, select, textarea {
 			}
 
 		.image.main {
-			display: block;
-			margin: 4rem 0;
-			width: 100%;
+			display: inline-block;
+			border-radius: 50%;
+			margin: 2rem 0;
+			width: 50%;
 		}
 
 			.image.main:first-child {
