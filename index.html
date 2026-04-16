@@ -1,143 +1,649 @@
-<!DOCTYPE HTML>
-<!--
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Harsha Patel - Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Harsha Patel</title>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+  :root {
+    --cream: #F5F0E8;
+    --ink: #1A1A18;
+    --muted: #7A7870;
+    --accent: #C94A2B;
+    --soft: #E8E2D6;
+    --serif: 'Instrument Serif', Georgia, serif;
+    --sans: 'DM Sans', sans-serif;
+  }
 
-				<!-- Intro -->
-					<div id="intro">
-						<h1>HARSHA PATEL</h1>
-						<p> BUSINESS ANALYST | DATA ANALYST | QUALITY ASSURANCE ANAYST </p>
-					</div>
+  html { scroll-behavior: smooth; }
 
-				<!-- Main -->
-					<div id="main">
+  body {
+    background: var(--cream);
+    color: var(--ink);
+    font-family: var(--sans);
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.7;
+    overflow-x: hidden;
+  }
 
+  /* NAV */
+  nav {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25rem 4rem;
+    background: var(--cream);
+    border-bottom: 1px solid var(--soft);
+  }
 
-						<!-- ABOUT ME -->
-							<article class="post featured">
-								<header class="major">
-									<a href="#" class="image main"><img src="images/ProfilePicture.jpg" alt="Profile Picture" /></a>
-									<h2>ABOUT ME</h2>
-									<p>Hi, I’m Harsha Patel, a data-driven problem solver with over four years of experience turning complex datasets into actionable insights that drive business success. With a background in Operations, Healthcare, Finance, and Business Strategy, I specialise in data analytics, process optimisation, and strategic decision-making.
-										I thrive on transforming raw data into meaningful stories, helping businesses make smarter, faster decisions. Whether it’s building predictive models, designing interactive dashboards, or streamlining operations, I bring a blend of technical expertise and business acumen to every project.
-										I hold an MSc in Business Analytics and Decision Sciences from the University of Leeds and a B.Tech in Computer Science and Engineering from SRM Institute of Science and Technology.
-										Beyond work, I’m passionate about data-driven marketing, ESG initiatives, and mentoring aspiring analysts. I believe that data has the power to shape industries, solve problems, and create lasting impact—and I’m here to make that happen.
-										Let’s connect and explore how data can drive innovation and success!
-										 </p>
-								</header>
-								
-								
-							</article>
+  nav .logo {
+    font-family: var(--serif);
+    font-size: 1.1rem;
+    color: var(--ink);
+    text-decoration: none;
+    letter-spacing: 0.01em;
+  }
 
-							<header>
-								<h1 style="text-align:center">PROJECTS</h1>
-							</header>
+  nav .nav-links {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+  }
 
-						<!-- Posts -->
-							<section class="posts">
-								<article>
-									<header>	
-										<h2>Exploratory Data Analysis of Netflix Titles - PYTHON</h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/netflix.jpeg" alt="" /></a>
-									<p>This project involved performing a comprehensive Exploratory Data Analysis (EDA) on a dataset of Netflix titles, encompassing movies and TV shows available on the platform. The goal was to uncover insights into Netflix's content strategy, including content type distribution, genre popularity, content addition trends, rating distribution, genre-rating correlations, and content acquisition trends over time.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/harsha8797/Netflix_Data_Analysis_Project_Using_Python" class="button">View Project</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										
-										<h2>Loan Applicants Analysis Project - SQL</h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/loanapproval.png" alt="" /></a>
-									<p>In the realm of financial services, accurately assessing loan default risk is paramount. The Loan Applicants Analysis Project leverages a rich dataset of loan applicants in India, aiming to unearth patterns and insights that influence loan approval decisions. Through meticulous data exploration and analysis in PostgreSQL, complemented by strategic use of pgAdmin for query management, this project dives deep into the financial and demographic attributes of applicants to predict loan default risks.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/harsha8797/Loan_Applicants_In_India_Data_Analysis_Using_SQL" class="button">View Project</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-									
-										<h2>Airbnb Seattle Data Analysis - PYTHON</h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/airbnbseattle.png" alt="" /></a>
-									<p>The Airbnb Seattle Data Analysis project provides an in-depth exploration of the Airbnb market in Seattle, leveraging publicly available data from Airbnb. The project aims to uncover insights related to listing dynamics, pricing strategies, seasonal booking trends, and customer sentiment to inform hosts on optimising their listings and maximising revenue. Through a series of data manipulation, visualisation, and modelling techniques, this analysis sheds light on key factors influencing the Airbnb ecosystem in Seattle.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/harsha8797/Airbnb_Seattle_Data_Analysis_Project_Using_Python" class="button">View Project</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-									
-										<h2>HR Employee Attrition Analysis - SQL</h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/Employee-Attrition.jpg" alt="" /></a>
-									<p>In this project, I delved into the complex world of HR data to uncover patterns related to employee attrition, compensation disparities, work-life balance, and more. Utilising a rich dataset of 1,470 employee records across 34 variables, I crafted a series of SQL queries aimed at extracting actionable insights to aid in workforce management and strategic planning.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/harsha8797/Employee_Attrition_Analysis_Using_SQL" class="button">View Project</a></li>
-									</ul>
-								</article>
-							</section>
+  nav .nav-links a {
+    font-size: 0.85rem;
+    font-weight: 400;
+    color: var(--muted);
+    text-decoration: none;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    transition: color 0.2s;
+  }
 
-					
+  nav .nav-links a:hover { color: var(--ink); }
 
-					</div>
+  /* HERO */
+  .hero {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 8rem 4rem 5rem;
+    position: relative;
+  }
 
-					<footer id="footer">
-						<section class="split contact">
-							
-							<section class="alt">
-								<h3>Location</h3>
-								<p>Leeds, United Kingdom</p>
-							</section>
+  .hero-eyebrow {
+    font-size: 0.8rem;
+    font-weight: 400;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 1.25rem;
+  }
 
-							<section>
-								<h3>Email</h3>
-								<p><a href="#">harsha.patel0807@gmail.com</a></p>
-							</section>
+  .hero h1 {
+    font-family: var(--serif);
+    font-size: clamp(3rem, 7vw, 6.5rem);
+    line-height: 1.05;
+    font-weight: 400;
+    color: var(--ink);
+    max-width: 900px;
+  }
 
-							<section>
-								<h3>Social</h3>
-								<ul class="icons alt">
-									<li><a href="https://www.linkedin.com/in/harshapatel8797/" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
-									<li><a href="https://www.facebook.com/harsha.patel.12935756" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="https://www.instagram.com/harsha8797/" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="https://github.com/harsha8797" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								</ul>
-							</section>
-						</section>
-					</footer>
+  .hero h1 em {
+    font-style: italic;
+    color: var(--accent);
+  }
 
-				<!-- Copyright -->
-					<div id="copyright">
-						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
-					</div>
+  .hero-sub {
+    margin-top: 2rem;
+    font-size: 1rem;
+    color: var(--muted);
+    max-width: 480px;
+    line-height: 1.8;
+  }
 
-			</div>
+  .hero-cta {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+  .btn-primary {
+    display: inline-block;
+    background: var(--ink);
+    color: var(--cream);
+    padding: 0.75rem 1.75rem;
+    font-family: var(--sans);
+    font-size: 0.85rem;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 100px;
+    transition: background 0.2s, transform 0.15s;
+  }
 
-	</body>
+  .btn-primary:hover { background: var(--accent); transform: translateY(-1px); }
+
+  .btn-ghost {
+    font-size: 0.85rem;
+    color: var(--muted);
+    text-decoration: none;
+    letter-spacing: 0.03em;
+    border-bottom: 1px solid var(--soft);
+    padding-bottom: 2px;
+    transition: color 0.2s, border-color 0.2s;
+  }
+
+  .btn-ghost:hover { color: var(--ink); border-color: var(--ink); }
+
+  .scroll-hint {
+    position: absolute;
+    bottom: 2.5rem;
+    right: 4rem;
+    font-size: 0.75rem;
+    color: var(--muted);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    writing-mode: vertical-rl;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .scroll-hint::before {
+    content: '';
+    display: block;
+    width: 1px;
+    height: 40px;
+    background: var(--muted);
+  }
+
+  /* SECTION BASE */
+  section {
+    padding: 6rem 4rem;
+    border-top: 1px solid var(--soft);
+  }
+
+  .section-label {
+    font-size: 0.75rem;
+    font-weight: 400;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 3rem;
+  }
+
+  /* ABOUT */
+  .about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.6fr;
+    gap: 5rem;
+    align-items: start;
+  }
+
+  .about-facts { }
+
+  .fact-block {
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--soft);
+  }
+
+  .fact-block:last-child { border-bottom: none; }
+
+  .fact-label {
+    font-size: 0.72rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.4rem;
+  }
+
+  .fact-value {
+    font-size: 0.95rem;
+    color: var(--ink);
+    font-weight: 400;
+  }
+
+  .about-text p {
+    font-family: var(--serif);
+    font-size: clamp(1.15rem, 2vw, 1.45rem);
+    line-height: 1.7;
+    color: var(--ink);
+    margin-bottom: 1.5rem;
+    font-weight: 400;
+  }
+
+  .about-text p em { color: var(--accent); font-style: italic; }
+
+  .about-text .small-note {
+    font-family: var(--sans);
+    font-size: 0.9rem;
+    color: var(--muted);
+    line-height: 1.8;
+    margin-top: 2rem;
+    font-weight: 300;
+  }
+
+  /* PROJECTS */
+  .projects-intro {
+    font-family: var(--serif);
+    font-size: clamp(1.5rem, 3vw, 2.25rem);
+    line-height: 1.4;
+    max-width: 560px;
+    margin-bottom: 4rem;
+    font-weight: 400;
+  }
+
+  .project-list { }
+
+  .project-item {
+    display: grid;
+    grid-template-columns: 80px 1fr auto;
+    gap: 2rem;
+    align-items: start;
+    padding: 2.5rem 0;
+    border-bottom: 1px solid var(--soft);
+    text-decoration: none;
+    color: inherit;
+    transition: background 0.2s;
+    cursor: pointer;
+  }
+
+  .project-item:first-child { border-top: 1px solid var(--soft); }
+
+  .project-item:hover .project-title { color: var(--accent); }
+  .project-item:hover .proj-arrow { transform: translate(4px, -4px); }
+
+  .proj-num {
+    font-size: 0.75rem;
+    color: var(--muted);
+    letter-spacing: 0.08em;
+    padding-top: 4px;
+  }
+
+  .project-title {
+    font-family: var(--serif);
+    font-size: clamp(1.1rem, 2vw, 1.5rem);
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+    transition: color 0.2s;
+  }
+
+  .project-desc {
+    font-size: 0.9rem;
+    color: var(--muted);
+    line-height: 1.7;
+    max-width: 560px;
+    font-weight: 300;
+  }
+
+  .project-tags {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    margin-top: 0.75rem;
+  }
+
+  .tag {
+    font-size: 0.7rem;
+    font-weight: 400;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 0.25rem 0.65rem;
+    border: 1px solid var(--soft);
+    border-radius: 100px;
+    color: var(--muted);
+  }
+
+  .proj-arrow {
+    font-size: 1.1rem;
+    color: var(--muted);
+    transition: transform 0.2s;
+    padding-top: 6px;
+  }
+
+  /* SKILLS */
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+  }
+
+  .skill-col-label {
+    font-size: 0.72rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 1.25rem;
+  }
+
+  .skill-list {
+    list-style: none;
+  }
+
+  .skill-list li {
+    font-size: 1rem;
+    font-family: var(--serif);
+    color: var(--ink);
+    padding: 0.5rem 0;
+    border-bottom: 1px solid var(--soft);
+  }
+
+  .skill-list li:last-child { border-bottom: none; }
+
+  /* CONTACT */
+  .contact-inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+    align-items: end;
+  }
+
+  .contact-heading {
+    font-family: var(--serif);
+    font-size: clamp(2rem, 5vw, 4rem);
+    line-height: 1.1;
+    font-weight: 400;
+  }
+
+  .contact-heading em { color: var(--accent); font-style: italic; }
+
+  .contact-links { list-style: none; }
+
+  .contact-links li {
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--soft);
+  }
+
+  .contact-links li:first-child { border-top: 1px solid var(--soft); }
+
+  .contact-links a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--ink);
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: color 0.2s;
+  }
+
+  .contact-links a:hover { color: var(--accent); }
+
+  .contact-links .link-label { font-weight: 400; }
+  .contact-links .link-val { color: var(--muted); font-size: 0.85rem; }
+
+  /* FOOTER */
+  footer {
+    padding: 2rem 4rem;
+    border-top: 1px solid var(--soft);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.8rem;
+    color: var(--muted);
+  }
+
+  /* FADE IN */
+  .fade-up {
+    opacity: 0;
+    transform: translateY(24px);
+    transition: opacity 0.7s ease, transform 0.7s ease;
+  }
+
+  .fade-up.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  @media (max-width: 768px) {
+    nav { padding: 1rem 1.5rem; }
+    .hero { padding: 6rem 1.5rem 4rem; }
+    section { padding: 4rem 1.5rem; }
+    .about-grid { grid-template-columns: 1fr; gap: 3rem; }
+    .skills-grid { grid-template-columns: 1fr; gap: 2rem; }
+    .contact-inner { grid-template-columns: 1fr; gap: 3rem; }
+    footer { flex-direction: column; gap: 0.5rem; text-align: center; }
+    .project-item { grid-template-columns: 50px 1fr auto; gap: 1rem; }
+    .scroll-hint { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="#" class="logo">Harsha Patel</a>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#" style="color: var(--accent);">Résumé ↗</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <p class="hero-eyebrow">Data · Business · Operations · Product</p>
+  <h1>hi, I'm Harsha.<br/>I go looking for<br/>what the data is <em>hiding.</em></h1>
+  <p class="hero-sub">Six years of turning uncomfortable questions into measurable outcomes — across tech, food service, and finance.</p>
+  <div class="hero-cta">
+    <a href="#projects" class="btn-primary">See my work</a>
+    <a href="mailto:harsha.patel0807@gmail.com" class="btn-ghost">harsha.patel0807@gmail.com</a>
+  </div>
+  <div class="scroll-hint">Scroll</div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <p class="section-label">About me</p>
+  <div class="about-grid">
+
+    <div class="about-facts">
+      <div class="fact-block fade-up">
+        <p class="fact-label">Currently looking for</p>
+        <p class="fact-value">Data / Business / Operations Analyst<br/>& Product Management roles</p>
+      </div>
+      <div class="fact-block fade-up">
+        <p class="fact-label">Most recent role</p>
+        <p class="fact-value">Business Operations Analyst<br/>Subway UK & Ireland, Leeds</p>
+      </div>
+      <div class="fact-block fade-up">
+        <p class="fact-label">Education</p>
+        <p class="fact-value">MSc Business Analytics & Decision Sciences<br/>University of Leeds</p>
+      </div>
+      <div class="fact-block fade-up">
+        <p class="fact-label">Industries spanned</p>
+        <p class="fact-value">Tech · Food Service · Finance · NGO</p>
+      </div>
+      <div class="fact-block fade-up">
+        <p class="fact-label">I pass time by</p>
+        <p class="fact-value">Overanalysing cricket stats, exploring new cuisines, and occasionally convincing myself I'll finish a side project.</p>
+      </div>
+      <div class="fact-block fade-up">
+        <p class="fact-label">Here's a fun fact</p>
+        <p class="fact-value">I once saved a Subway franchise 25% in waste. The sandwiches, however, were not wasted. 🥖</p>
+      </div>
+    </div>
+
+    <div class="about-text">
+      <p class="fade-up">Most people find data. <em>I go looking for what the data is hiding.</em></p>
+      <p class="fade-up">It started during my Computer Science degree — less "how do I write this code" and more "how do I know this code is actually doing what we think it is?" That instinct led me into Quality Assurance at Accenture, where I built testing frameworks that cut manual effort by 50%. Then an MSc at Leeds sharpened it further. Then Subway — yes, the sandwich place — where I reduced operational waste by 25% and grew store revenue by 15% by doing what I do best: asking uncomfortable questions of comfortable assumptions.</p>
+      <p class="fade-up">Six years in, I've sat with franchise managers, development leads, and frontline staff alike. I've built dashboards nobody asked for that everyone ended up needing. And I've learned that the gap between a good insight and a useless one is almost never the data — it's whether anyone actually changes their behaviour because of it.</p>
+      <p class="small-note fade-up">If your data is telling you something your team isn't ready to hear — I'm probably your person.</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <p class="section-label">Selected Projects</p>
+  <p class="projects-intro fade-up">A few things I've dug into — each one a different question I couldn't leave alone.</p>
+
+  <div class="project-list">
+
+    <a class="project-item fade-up" href="https://github.com/harsha8797/Netflix_Data_Analysis_Project_Using_Python" target="_blank">
+      <span class="proj-num">01</span>
+      <div>
+        <p class="project-title">Netflix Content Strategy Analysis</p>
+        <p class="project-desc">Netflix has 6,000+ titles and a content budget that would make most governments nervous. So what's actually working? I dug into the full catalogue to surface which genres are quietly dominating, how strategy has shifted over the years, and what the rating distribution tells us about who Netflix is really making shows for. Less "what's on Netflix" — more "why is it on Netflix."</p>
+        <div class="project-tags">
+          <span class="tag">Python</span>
+          <span class="tag">EDA</span>
+          <span class="tag">Pandas</span>
+          <span class="tag">Matplotlib</span>
+        </div>
+      </div>
+      <span class="proj-arrow">↗</span>
+    </a>
+
+    <a class="project-item fade-up" href="https://github.com/harsha8797/Loan_Applicants_In_India_Data_Analysis_Using_SQL" target="_blank">
+      <span class="proj-num">02</span>
+      <div>
+        <p class="project-title">Loan Default Risk Analysis</p>
+        <p class="project-desc">Banks say they use data to make lending decisions. I wanted to see if that held up. Using a real-world dataset of applicants in India, I ran a deep SQL analysis on the financial and demographic signals that separate borrowers who repay from those who don't. Turns out the story is more nuanced — and more interesting — than a credit score alone would suggest.</p>
+        <div class="project-tags">
+          <span class="tag">SQL</span>
+          <span class="tag">PostgreSQL</span>
+          <span class="tag">pgAdmin</span>
+          <span class="tag">Risk Analysis</span>
+        </div>
+      </div>
+      <span class="proj-arrow">↗</span>
+    </a>
+
+    <a class="project-item fade-up" href="https://github.com/harsha8797/Airbnb_Seattle_Data_Analysis_Project_Using_Python" target="_blank">
+      <span class="proj-num">03</span>
+      <div>
+        <p class="project-title">Airbnb Seattle — What Actually Drives Revenue?</p>
+        <p class="project-desc">If you listed a room in Seattle tomorrow, what would make you money — the neighbourhood, the price, the photos, or relentless five-star reviews? I worked through listing data, seasonal booking patterns, and customer sentiment to find out. The answer involves all of the above, but not equally — and the gaps between host assumptions and guest behaviour are where the real insights live.</p>
+        <div class="project-tags">
+          <span class="tag">Python</span>
+          <span class="tag">Sentiment Analysis</span>
+          <span class="tag">Seaborn</span>
+          <span class="tag">Pricing Strategy</span>
+        </div>
+      </div>
+      <span class="proj-arrow">↗</span>
+    </a>
+
+    <a class="project-item fade-up" href="https://github.com/harsha8797/Employee_Attrition_Analysis_Using_SQL" target="_blank">
+      <span class="proj-num">04</span>
+      <div>
+        <p class="project-title">HR Attrition — The Data Knew Before HR Did</p>
+        <p class="project-desc">People don't just quit jobs. They quit situations — and the data usually knows which ones long before HR does. I analysed 1,470 employee records across 34 variables to surface patterns behind attrition: who's leaving, from which teams, at what compensation bands, and why the work-life balance scores nobody takes seriously are actually the loudest signal in the room.</p>
+        <div class="project-tags">
+          <span class="tag">SQL</span>
+          <span class="tag">HR Analytics</span>
+          <span class="tag">Root Cause Analysis</span>
+        </div>
+      </div>
+      <span class="proj-arrow">↗</span>
+    </a>
+
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <p class="section-label">What I work with</p>
+  <div class="skills-grid">
+    <div class="fade-up">
+      <p class="skill-col-label">Languages & Tools</p>
+      <ul class="skill-list">
+        <li>Python</li>
+        <li>SQL · PostgreSQL</li>
+        <li>Power BI</li>
+        <li>Excel · Advanced</li>
+        <li>Selenium · Appium</li>
+        <li>Jenkins · TestNG</li>
+      </ul>
+    </div>
+    <div class="fade-up">
+      <p class="skill-col-label">What I actually do</p>
+      <ul class="skill-list">
+        <li>Exploratory Data Analysis</li>
+        <li>Dashboard & Reporting Design</li>
+        <li>Process & Workflow Optimisation</li>
+        <li>Test Automation</li>
+        <li>Stakeholder Communication</li>
+        <li>Root Cause Analysis</li>
+      </ul>
+    </div>
+    <div class="fade-up">
+      <p class="skill-col-label">Domains</p>
+      <ul class="skill-list">
+        <li>Operations & Supply Chain</li>
+        <li>Financial Analytics</li>
+        <li>HR & People Analytics</li>
+        <li>Product Analytics</li>
+        <li>Quality Assurance</li>
+        <li>Business Strategy</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <p class="section-label">Get in touch</p>
+  <div class="contact-inner">
+    <h2 class="contact-heading fade-up">Let's talk about<br/>your <em>data</em> problems.</h2>
+    <div>
+      <ul class="contact-links">
+        <li class="fade-up">
+          <a href="mailto:harsha.patel0807@gmail.com">
+            <span class="link-label">Email</span>
+            <span class="link-val">harsha.patel0807@gmail.com ↗</span>
+          </a>
+        </li>
+        <li class="fade-up">
+          <a href="https://www.linkedin.com/in/harshapatel8797/" target="_blank">
+            <span class="link-label">LinkedIn</span>
+            <span class="link-val">harshapatel8797 ↗</span>
+          </a>
+        </li>
+        <li class="fade-up">
+          <a href="https://github.com/harsha8797" target="_blank">
+            <span class="link-label">GitHub</span>
+            <span class="link-val">harsha8797 ↗</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <span>© Harsha Patel 2025</span>
+  <span>Designed & built by Harsha Patel</span>
+</footer>
+
+<script>
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry, i) => {
+      if (entry.isIntersecting) {
+        setTimeout(() => entry.target.classList.add('visible'), i * 80);
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.12 });
+
+  document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+</script>
+
+</body>
 </html>
